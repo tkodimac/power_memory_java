@@ -1,5 +1,3 @@
-JavaScript (script.js):
-```javascript
 // Define the word pairs for the game
 const words = ['apple', 'banana', 'orange', 'grape', 'melon', 'strawberry', 'pineapple', 'peach'];
 
@@ -31,4 +29,3 @@ wordPairs.forEach((word, index) => {
 // Add event listeners for the restart button
 
 // Add additional JavaScript code to handle game logic, interactivity, and responsiveness
-```

@@ -1,5 +1,3 @@
-CSS (styles.css):
-```css
 /* Add your styles here */
 body {
   font-family: Arial, sans-serif;
@@ -9,7 +7,7 @@ body {
   padding: 0;
 }
 
-.memory-game {
+.power-memory-game {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
@@ -28,4 +26,3 @@ body {
   font-size: 20px;
   cursor: pointer;
 }
-```
