@@ -25,6 +25,62 @@ wordPairs.forEach((word, index) => {
 });
 
 // Implement card flip logic and game rules
+let firstCard, secondCard;
+let lockBoard = false;
+let hasFlippedCard = false;
+let count = 0;
+
+function flipCard() {
+  if (lockBoard) return;
+  if (this === firstCard) return;
+
+  this.textContent = this.dataset.word;
+
+  if (!hasFlippedCard) {
+    // first click
+    hasFlippedCard = true;
+    firstCard = this;
+    return;
+  }
+
+  // second click
+  hasFlippedCard = false;
+  secondCard = this;
+  checkForMatch();
+}
+
+function checkForMatch() {
+  let isMatch = firstCard.dataset.word === secondCard.dataset.word;
+
+  if (isMatch) {
+    count += 2;
+    if (count === wordPairs.length) {
+      // All cards have been matched, game over
+      alert('Congratulations! You won!');
+    }
+    disableCards();
+  } else {
+    // Not a match, flip cards back
+    lockBoard = true;
+    setTimeout(() => {
+      firstCard.textContent = '?';
+      secondCard.textContent = '?';
+      resetBoard();
+    }, 1000);
+  }
+}
+
+function disableCards() {
+  firstCard.removeEventListener('click', flipCard);
+  secondCard.removeEventListener('click', flipCard);
+
+  resetBoard();
+}
+
+function resetBoard() {
+  [hasFlippedCard, lockBoard] = [false, false];
+  [firstCard, secondCard] = [null, null];
+}
 // Add interactivity and game logic
 // Add event listeners for the restart button
 
