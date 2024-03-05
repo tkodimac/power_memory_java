@@ -82,6 +82,9 @@ function resetBoard() {
   [firstCard, secondCard] = [null, null];
 }
 // Add interactivity and game logic
+const restartButton = document.getElementById('restart-button');
+restartButton.addEventListener('click', () => {
+  location.reload();
 // Add event listeners for the restart button
 
 // Add additional JavaScript code to handle game logic, interactivity, and responsiveness
