@@ -86,5 +86,8 @@ const restartButton = document.getElementById('restart-button');
 restartButton.addEventListener('click', () => {
   location.reload();
 // Add event listeners for the restart button
+const cards = document.querySelectorAll('.card');
+cards.forEach(card => card.addEventListener('click', flipCard));
+
 
 // Add additional JavaScript code to handle game logic, interactivity, and responsiveness
