@@ -55,7 +55,7 @@ The game utilizes a clear and easy-to-read font to ensure a comfortable reading 
 - Dynamic generation of cards with shuffled word pairs
 - Interactive card flipping
 - Restart button to start a new game
-# Game Grid Layout
+### Game Grid Layout
 
 The Memory Word Game features a grid layout that provides an intuitive and interactive interface for players. The grid comprises a series of cards, each displaying a hidden word. These cards are arranged in rows and columns, creating a visually organized game board.
 
