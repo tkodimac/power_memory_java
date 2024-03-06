@@ -3,17 +3,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
   background-color: #f4f4f4; /* Grey background color */
   color: #000; /* Black text color */
 }
 
-.power-memory-game {
+header, footer {
+  background-color: #2196F3; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 20px;
   text-align: center;
 }
 
-h1 {
+.power-memory-game {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
   color: #000; /* Black header text color */
 }
 
