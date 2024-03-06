@@ -80,7 +80,7 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 
 ## Testing
 ### Validator Testing
-- HTML, CSS, and JavaScript code were validated using W3C Markup Validation Service and other relevant tools.
+- HTML, CSS, and JavaScript code were validated using W3C Markup Validation Service and snyk.io/org.
 
 ### Lighthouse Testing
 - The game was tested using Lighthouse for performance, accessibility, best practices, and SEO.
@@ -98,13 +98,13 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 ### Deployment through GitHub Pages
 This site was deployed through GitHub Pages using the following steps:
 
-Log into GitHub.
-Locate the repository.
-Click the "settings" option along the options bar.
-Then go to "Pages" tab in the left hand side sidebar.
-Then under "Source" click the "None" dropdown and select the "Master" branch
-Click the save button.
-The page will update and at the top it will say: "Your site is ready to be published at 
+-Log into GitHub.
+-Locate the repository.
+-Click the "settings" option along the options bar.
+-Then go to "Pages" tab in the left hand side sidebar.
+-Then under "Source" click the "None" dropdown and select the "Master" branch
+-Click the save button.
+-The page will update and at the top it will say: "Your site is ready to be published at 
 
 ## Credits
 ### Code
