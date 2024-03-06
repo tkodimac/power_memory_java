@@ -96,7 +96,15 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 
 ## Deployment
 ### Deployment through GitHub Pages
-- Describe the process of deploying the game through GitHub Pages.
+This site was deployed through GitHub Pages using the following steps:
+
+Log into GitHub.
+Locate the repository.
+Click the "settings" option along the options bar.
+Then go to "Pages" tab in the left hand side sidebar.
+Then under "Source" click the "None" dropdown and select the "Master" branch
+Click the save button.
+The page will update and at the top it will say: "Your site is ready to be published at 
 
 ## Credits
 ### Code
