@@ -16,10 +16,7 @@ wordPairs.forEach((word, index) => {
   card.dataset.word = word;
   card.textContent = '?'; // Hide word initially
 
-  card.addEventListener('click', () => {
-    card.textContent = word; // Reveal word
-    // Implement card flip logic here
-  });
+  card.addEventListener('click', flipCard);
 
   cardContainer.appendChild(card);
 });
@@ -81,13 +78,16 @@ function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
   [firstCard, secondCard] = [null, null];
 }
-// Adding interactivity and game logic
+
+// Adding event listener for the restart button
 const restartButton = document.getElementById('restart-button');
 restartButton.addEventListener('click', () => {
   location.reload();
-// Adding event listeners for the restart button
+});
+
+// Adding event listeners for the cards
 const cards = document.querySelectorAll('.card');
 cards.forEach(card => card.addEventListener('click', flipCard));
 
 
-// Add additional JavaScript code to handle game logic, interactivity, and responsiveness
+
