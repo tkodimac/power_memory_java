@@ -1,5 +1,5 @@
 // Define the word pairs for the game
-const words = ['apple', 'banana', 'orange', 'grape', 'melon', 'strawberry', 'pineapple', 'peach'];
+const words = ['Inspiring', 'Unstoppable', 'Exciting', 'Alive', 'Brilliant', 'Absolute', 'Achieve', 'Charming'];
 
 // Duplicate the word pairs to create matching pairs
 const wordPairs = [...words, ...words];
@@ -88,6 +88,3 @@ restartButton.addEventListener('click', () => {
 // Adding event listeners for the cards
 const cards = document.querySelectorAll('.card');
 cards.forEach(card => card.addEventListener('click', flipCard));
-
-
-
