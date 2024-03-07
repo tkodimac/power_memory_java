@@ -45,7 +45,7 @@ h2 {
   height: 150px;
   background-color: #2196F3;
   /* Blue background color */
-  background-image: url('powerball-image.jpg');
+  background-image: url('/assets/images/power_card.jpeg');
   /* Path to the powerball image */
   background-size: cover;
   background-position: center;
