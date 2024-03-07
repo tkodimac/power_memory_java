@@ -6,13 +6,18 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
-  background-color: #f4f4f4; /* Grey background color */
-  color: #000; /* Black text color */
+  background-color: #f4f4f4;
+  /* Grey background color */
+  color: #000;
+  /* Black text color */
 }
 
-header, footer {
-  background-color: #2196F3; /* Blue background color */
-  color: #fff; /* White text color */
+header,
+footer {
+  background-color: #2196F3;
+  /* Blue background color */
+  color: #fff;
+  /* White text color */
   padding: 20px;
   text-align: center;
 }
@@ -23,7 +28,8 @@ header, footer {
 }
 
 h2 {
-  color: #000; /* Black header text color */
+  color: #000;
+  /* Black header text color */
 }
 
 .cards {
@@ -37,11 +43,14 @@ h2 {
 .card {
   width: 100px;
   height: 150px;
-  background-color: #2196F3; /* Blue background color */
-  background-image: url('powerball-image.jpg'); /* Path to the powerball image */
+  background-color: #2196F3;
+  /* Blue background color */
+  background-image: url('powerball-image.jpg');
+  /* Path to the powerball image */
   background-size: cover;
   background-position: center;
-  color: #fff; /* White text color */
+  color: #fff;
+  /* White text color */
   font-size: 24px;
   font-weight: bold;
   display: flex;
@@ -56,8 +65,10 @@ button {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #2196F3; /* Blue background color */
-  color: #fff; /* White text color */
+  background-color: #2196F3;
+  /* Blue background color */
+  color: #fff;
+  /* White text color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -65,5 +76,6 @@ button {
 }
 
 button:hover {
-  background-color: #1976D2; /* Darker blue color on hover */
+  background-color: #1976D2;
+  /* Darker blue color on hover */
 }
