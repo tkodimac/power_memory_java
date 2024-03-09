@@ -21,6 +21,15 @@ wordPairs.forEach((word, index) => {
   cardContainer.appendChild(card);
 });
 
+// Adding event listener for the restart button
+const restartButton = document.getElementById('restart-button');
+restartButton.addEventListener('click', () => {
+  location.reload();
+});
+
+// Adding event listeners for the cards
+const cards = document.querySelectorAll('.card');
+cards.forEach(card => card.addEventListener('click', flipCard));
 // Implement card flip logic and game rules
 let firstCard, secondCard;
 let lockBoard = false;
@@ -78,13 +87,3 @@ function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
   [firstCard, secondCard] = [null, null];
 }
-
-// Adding event listener for the restart button
-const restartButton = document.getElementById('restart-button');
-restartButton.addEventListener('click', () => {
-  location.reload();
-});
-
-// Adding event listeners for the cards
-const cards = document.querySelectorAll('.card');
-cards.forEach(card => card.addEventListener('click', flipCard));
