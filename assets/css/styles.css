@@ -32,11 +32,13 @@ h2 {
 }
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #61adec;
+  /* Add border around all the cards */
 }
 
 .card {
@@ -57,6 +59,8 @@ h2 {
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #2196F3;
+  /* Add border around each card */
 }
 
 button {
