@@ -1,3 +1,5 @@
+/* Default styles for all screen sizes */
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
@@ -6,16 +8,13 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
-  background-color: #f4f4f4;
-  /* Grey background color */
-  color: #000;
-  /* Black text color */
+  background-color: #c1b8b896;
+  color: #252323;
 }
 
 header,
 footer {
-  background-color: #2196F3;
-  /* Blue background color */
+  background-color: #61adec;
   color: #fff;
   /* White text color */
   padding: 20px;
@@ -43,15 +42,14 @@ h2 {
 .card {
   width: 100px;
   height: 150px;
-  background-color: #2196F3;
-  /* Blue background color */
-  background-image: url('/assets/images/power_card.jpeg');
+  background-color: #61adec;
+  /**background-image: url('/assets/images/power_card.jpeg');
   /* Path to the powerball image */
   background-size: cover;
   background-position: center;
   color: #fff;
   /* White text color */
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -65,8 +63,7 @@ button {
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #2196F3;
-  /* Blue background color */
+  background-color: #61adec;
   color: #fff;
   /* White text color */
   border: none;
@@ -77,5 +74,35 @@ button {
 
 button:hover {
   background-color: #1976D2;
-  /* Darker blue color on hover */
+}
+
+/* Media queries for responsiveness */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80px;
+    height: 120px;
+    font-size: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+  header,
+  footer {
+    padding: 15px;
+  }
+
+  .card {
+    width: 60px;
+    height: 90px;
+    font-size: 14px;
+  }
 }

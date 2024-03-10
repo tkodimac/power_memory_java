@@ -17,7 +17,6 @@
   + [Validator Testing](#validator-testing)
   + [Lighthouse Testing](#lighthouse-testing)
   + [Responsiveness](#responsiveness)
-  + [Testing User Stories](#testing-user-stories)
   + [Problems Encountered](#problems-encountered)
 + [Deployment](#deployment)
   + [Deployment through GitHub Pages](#deployment-through-gitHub-pages)
@@ -39,9 +38,9 @@ The Memory Word Game is a fun and challenging game that tests your memory skills
 #### Colour Scheme
 The Memory Word Game features a color scheme designed to provide a visually appealing and engaging experience for players.
 
-- **Blue (#2196F3)**: The primary color used for the header and footer, creating a vibrant and inviting atmosphere for players.
-- **Grey (#f4f4f4)**: The background color that complements the overall game layout, providing a neutral and calming backdrop.
-- **Black (#000)**: Used for text and header elements, offering a clear and legible contrast against the background.
+- **Blue (#61adec)**: The primary color used for the header and footer, creating a vibrant and inviting atmosphere for players.
+- **Grey (#c1b8b896)**: The background color complements the overall game layout, providing a neutral and calming backdrop.
+- **Black (#252323)**: Used for text and header elements, offering a clear and legible contrast against the background.
 - **White (#fff)**: Utilized for text in the header and footer, ensuring visibility and readability against the blue background.
 
 #### Typography
@@ -88,9 +87,6 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 ### Responsiveness
 - The game was tested on various devices and screen sizes to ensure responsiveness.
 
-### Testing User Stories
-- User stories were tested to ensure that the game meets the expectations of the players.
-
 ### Problems Encountered
 - Detail any issues or challenges faced during the development of the game and how they were resolved.
 
@@ -101,10 +97,10 @@ This site was deployed through GitHub Pages using the following steps:
 -Log into GitHub.
 -Locate the repository.
 -Click the "settings" option along the options bar.
--Then go to "Pages" tab in the left hand side sidebar.
+-Then go to the "Pages" tab in the left-hand side sidebar.
 -Then under "Source" click the "None" dropdown and select the "Master" branch
 -Click the save button.
--The page will update and at the top it will say: "Your site is ready to be published at 
+-The page will update and at the top, it will say: "Your site is ready to be published at 
 
 ## Credits
 ### Code
