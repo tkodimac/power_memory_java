@@ -37,13 +37,14 @@ h2 {
   gap: 10px;
   margin-top: 20px;
   padding: 10px;
+  background-color: #1b1d1e;
   border: 2px solid #61adec;
   /* Add border around all the cards */
 }
 
 .card {
   width: 100px;
-  height: 150px;
+  height: 100px;
   background-color: #61adec;
   /**background-image: url('/assets/images/power_card.jpeg');
   /* Path to the powerball image */
@@ -61,6 +62,9 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 2px solid #2196F3;
   /* Add border around each card */
+}
+.matched {
+  color: #00FF00; /* Green text color for matched cards */
 }
 
 button {

@@ -1,5 +1,5 @@
 // Define the word pairs for the game
-const words = ['Inspiring', 'Unstoppable', 'Exciting', 'Alive', 'Brilliant', 'Absolute', 'Achieve', 'Charming'];
+const words = ['Exciting', 'Alive', 'Brilliant', 'Absolute', 'Achieve', 'Charming'];
 
 // Duplicate the word pairs to create matching pairs
 const wordPairs = [...words, ...words];
@@ -59,8 +59,10 @@ function checkForMatch() {
   let isMatch = firstCard.dataset.word === secondCard.dataset.word;
 
   if (isMatch) {
+    firstCard.classList.add('matched');
+    secondCard.classList.add('matched');
     count += 2;
-    if (count === wordPairs.length) {
+        if (count === wordPairs.length) {
       // All cards have been matched, game over
       alert('Congratulations! You won!');
     }
