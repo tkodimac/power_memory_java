@@ -84,20 +84,30 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 ### Responsiveness
 - The game was tested on various devices and screen sizes to ensure responsiveness.
 
-### Problems Encountered
-- Detail any issues or challenges faced during the development of the game and how they were resolved.
+### Bugs
+- Insertion of images on the cards as background was a challenge as the text where appearing on the image. This was fixed by disenabling the image from the card.
+- Cards revealed texts that were overlapping the card margin when the tab was minimized. It was resolved by changing the words with short words that could fit in the cards even when minimized. 
+- Faced a problem when creating the timer for the game so that the user would enjoy a time-based game. the specific problem was with the logic of the timer and how to link the function of the timer to the logic function. I finally managed to overcome it by watching YouTube videos and advice from my mentor.
+
 
 ## Deployment
 ### Deployment through GitHub Pages
 This site was deployed through GitHub Pages using the following steps:
 
 -Log into GitHub.
+
 -Locate the repository.
+
 -Click the "settings" option along the options bar.
+
 -Then go to the "Pages" tab in the left-hand side sidebar.
+
 -Then under "Source" click the "None" dropdown and select the "Master" branch
+
 -Click the save button.
--The page will update and at the top, it will say: "Your site is ready to be published at 
+
+-The page will update and at the top, it will say: "Your site is ready to be published at https://tkodimac.github.io/power_memory_java/
+
 
 ## Credits
 ### Code
