@@ -37,13 +37,13 @@ h2 {
   gap: 10px;
   margin-top: 20px;
   padding: 10px;
-  background-color: #1b1d1e;
+  background-color: #3c90b9;
   border: 2px solid #61adec;
   /* Add border around all the cards */
 }
 
 .card {
-  width: 100px;
+  width: 150px;
   height: 100px;
   background-color: #61adec;
   /**background-image: url('/assets/images/power_card.jpeg');
@@ -68,7 +68,8 @@ h2 {
 }
 
 button {
-  margin-top: 20px;
+  margin-top: 22px;
+  margin-bottom: 22px;
   padding: 10px 20px;
   font-size: 16px;
   background-color: #61adec;
@@ -81,7 +82,7 @@ button {
 }
 
 button:hover {
-  background-color: #1976D2;
+  background-color: #00FF00;
 }
 
 /* Media queries for responsiveness */

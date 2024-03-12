@@ -1,5 +1,5 @@
 // Define the word pairs for the game
-const words = ['Exciting', 'Alive', 'Brilliant', 'Absolute', 'Achieve', 'Charming'];
+const words = ['Exciting', 'Alive', 'Brilliant', 'Absolute', 'Achieve', 'Charm'];
 
 // Duplicate the word pairs to create matching pairs
 const wordPairs = [...words, ...words];
@@ -89,3 +89,46 @@ function resetBoard() {
   [hasFlippedCard, lockBoard] = [false, false];
   [firstCard, secondCard] = [null, null];
 }
+
+// Declare a variable to hold the timer
+let timerInterval;
+let seconds = 0;
+
+// Function to start the timer
+function startTimer() {
+  timerInterval = setInterval(() => {
+    seconds++;
+    // Update the timer display in the HTML
+    const timerDisplay = document.getElementById('timer');
+    timerDisplay.textContent = formatTime(seconds);
+  }, 1000);
+}
+
+// Function to format the time in MM:SS format
+function formatTime(seconds) {
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = seconds % 60;
+  return `${padZero(minutes)}:${padZero(remainingSeconds)}`;
+}
+
+// Function to add leading zero to single-digit numbers
+function padZero(number) {
+  return number.toString().padStart(2, '0');
+}
+
+// Function to stop the timer
+function stopTimer() {
+  clearInterval(timerInterval);
+}
+
+// Adding event listener for the timer button
+const timerButton = document.getElementById('timerButton');
+timerButton.addEventListener('click', function() {
+  if (this.textContent === 'Start Timer') {
+    startTimer();
+    this.textContent = 'Stop Timer';
+  } else {
+    stopTimer();
+    this.textContent = 'Start Timer';
+  }
+});
