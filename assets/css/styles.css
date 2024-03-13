@@ -16,7 +16,7 @@ body {
 
 header,
 footer {
-  background-color: #61adec;
+  background-color: #1971b8f9;
   color: #fff;
   /* White text color */
   padding: 20px;
@@ -47,15 +47,15 @@ h2 {
   gap: 10px;
   margin-top: 20px;
   padding: 10px;
-  background-color: #3c90b9;
-  border: 2px solid #61adec;
+  background-color: #c1b8b896;
+  border: 2px solid #252323;
   /** Add border around all the cards */
 }
 
 .card {
   width: 150px;
   height: 100px;
-  background-color: #61adec;
+  background-color: #1971b8f9;
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -68,7 +68,7 @@ h2 {
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 2px solid #2196F3;
+  border: 2px solid #000;
   /** Add border around each card */
 }
 
@@ -82,7 +82,7 @@ button {
   margin-bottom: 22px;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #61adec;
+  background-color: #1971b8f9;
   color: #fff;
   /** White text color */
   border: none;
