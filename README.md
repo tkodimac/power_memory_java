@@ -125,7 +125,7 @@ General inspiration came from [Code institute](https://codeinstitute.net).
 
 ### Acknowledgements
 
--[Julia Konn](https://github.com/IuliiaKonovalova), my mentor and coding partner, assisted me greatly in project development ,selection control implementation and helped me withstand pressure.
+-[Julia Konn](https://github.com/IuliiaKonovalova), my mentor and coding partner, assisted me greatly in project development , and selection control implementation and helped me withstand pressure.
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
 
 
