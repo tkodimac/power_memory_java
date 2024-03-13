@@ -37,10 +37,10 @@ The Memory Word Game is a fun and challenging game that tests your memory skills
 - **Black (#252323)**: Used for text and header elements, offering a clear and legible contrast against the background.
 - **White (#fff)**: Utilized for text in the header and footer, ensuring visibility and readability against the blue background.
 - **Chocolate (#d2691e)**: Utilized as a background color for the game, ensuring visibility and vividness against the game components.
-![game layout](../power_memory_java/assets/readme/game_layout.png)
+![game layout](assets/readme/game_layout.png)
 #### Typography
 The game utilizes a clear and easy-to-read font to ensure a comfortable reading experience for players.
-![typography](../power_memory_java/assets/readme/game_layout2.png)
+![typography](assets/readme/game_layout2.png)
 ## Features
 ### Existing Features
 - Dynamic generation of cards with shuffled word pairs
@@ -56,7 +56,7 @@ The Memory Word Game features a grid layout that provides an intuitive and inter
 - **Matching Pairs**: Players aim to find matching pairs of words by flipping the cards, testing their memory and cognitive skills.
 
 The grid layout enhances the gameplay experience, providing a structured and visually appealing platform for players to enjoy the Memory Word Game.
-![game layout](../power_memory_java/assets/readme/typograph.png)
+![game layout](assets/readme/typograph.png)
 ### Future Features
 - Implement a timer to track the time taken to complete the game
 - Add different difficulty levels with varying grid sizes
@@ -84,26 +84,26 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 ## Testing
 ### Validator Testing
 - HTML, CSS, and JavaScript code were validated using W3C Markup Validation Service and JShint.
-[HTML test](../power_memory_java/assets/readme/HTML_test_Screenshot.png)
-[CSS test](../power_memory_java/assets/readme/CSS_test_Screenshot.png)
-[JavaScript test](../power_memory_java/assets/readme/JS_test_Screenshot.png)
+[HTML test](assets/readme/HTML_test_Screenshot.png)
+[CSS test](assets/readme/CSS_test_Screenshot.png)
+[JavaScript test](assets/readme/JS_test_Screenshot.png)
 
 
 ### Lighthouse Testing
 - The game was tested using Lighthouse for performance, accessibility, best practices, and SEO.
-[Lighthouse test](../power_memory_java/assets/readme/Lighthouse_test2_Screenshot.png)
-[WAVE accessibility](../power_memory_java/assets/readme/WAVE_test_Screenshot.png)
+[Lighthouse test](assets/readme/Lighthouse_test2_Screenshot.png)
+[WAVE accessibility](assets/readme/WAVE_test_Screenshot.png)
 
 ### Responsiveness
 - The game was tested on various devices and screen sizes to ensure responsiveness.
-![Responsiveness](../power_memory_java/assets/readme/all-devices-black.png)
+![Responsiveness](assets/readme/all-devices-black.png)
 
 ### Bugs
 - Insertion of images on the cards as background was a challenge as the text where appearing on the image. This was fixed by disenabling the image from the card.
 - Cards revealed texts that were overlapping the card margin when the tab was minimized. It was resolved by changing the words with short words that could fit in the cards even when minimized. 
 - Faced a problem when creating the timer for the game so that the user would enjoy a time-based game. the specific problem was with the logic of the timer and how to link the function of the timer to the logic function. I finally managed to overcome it by watching YouTube videos and advice from my mentor.
 - header and footer not within the window bar view. tried to adjust the width and height of the Header, Main and Footer but still the page was showing incorrectly. I finally had to write a small code on the Java script which fixed the problem. 
-![Bug Wave errors](../power_memory_java/assets/readme/wave%20errors%20on%20page.png)
+![Bug Wave errors](assets/readme/wave%20errors%20on%20page.png)
 
 
 ## Deployment
