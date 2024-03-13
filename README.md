@@ -6,7 +6,6 @@
   + [Design](#design)
     + [Colour Scheme](#colour-scheme)
     + [Typography](#typography)   
-  + [Wireframes](#wireframes)
 + [Features](#features)
   + [Existing Features](#existing-features)
   + [Future Features](#future-features)
@@ -22,7 +21,6 @@
   + [Deployment through GitHub Pages](#deployment-through-gitHub-pages)
 + [Credits](#credits)
   + [Code](#code)
-  + [Media](#media)
   + [Acknowledgements](#acknowledgements)
 
 ## User Experience
@@ -36,21 +34,23 @@
 The Memory Word Game is a fun and challenging game that tests your memory skills. It involves flipping cards to find matching pairs of words. The game presents a grid of cards, each containing a hidden word. Players flip the cards to reveal the words and try to find matching pairs by remembering the locations of the words. The game aims to improve memory and concentration while providing an entertaining experience for players of all ages. Enjoy the challenge and see how many pairs you can match! Color Scheme The Memory Word Game features a color scheme designed to provide a visually appealing and engaging experience for players.
 
 - **Blue (#61adec)**: The primary color used for the header and footer, creating a vibrant and inviting atmosphere for players.
-- **Grey (#c1b8b896)**: The background color complements the overall game layout, providing a neutral and calming backdrop.
+- **Grey (#c1b8b896)**: The background color complements the overall game layout, providing a neutral and calming mini backdrop.
 - **Black (#252323)**: Used for text and header elements, offering a clear and legible contrast against the background.
 - **White (#fff)**: Utilized for text in the header and footer, ensuring visibility and readability against the blue background.
+- **Chocolate (#d2691e)**: Utilized as a background color for the game, ensuring visibility and vivid against the game components.
 
 #### Typography
 The game utilizes a clear and easy-to-read font to ensure a comfortable reading experience for players.
-
-### Wireframes
-*Include links to any wireframes used for the game's design.*
 
 ## Features
 ### Existing Features
 - Dynamic generation of cards with shuffled word pairs
 - Interactive card flipping
 - Restart button to start a new game
+### Future Features
+- Addition of an image style for cards to increase the visibility and feel.
+- Adding a function to stop timer once all the cards have been matched.
+- A game log chart for best time record of completion .
 ### Game Grid Layout
 
 The Memory Word Game features a grid layout that provides an intuitive and interactive interface for players. The grid comprises a series of cards, each displaying a hidden word. These cards are arranged in rows and columns, creating a visually organized game board.
@@ -72,11 +72,18 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 - JavaScript
 
 ### Frameworks, Libraries, and Programmes Used
-- None
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project. 
+- [Visual Studio Code](https://code.visualstudio.com) was used as the main tool to write and edit code.
+- [Codeanywhere](https://app.codeanywhere.com/) was used as a tool to write and edit code.
+- [Git](https://git-scm.com/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
+- [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
 
 ## Testing
 ### Validator Testing
-- HTML, CSS, and JavaScript code were validated using W3C Markup Validation Service and snyk.io/org.
+- HTML, CSS, and JavaScript code were validated using W3C Markup Validation Service and jshint.
 
 ### Lighthouse Testing
 - The game was tested using Lighthouse for performance, accessibility, best practices, and SEO.
@@ -113,10 +120,8 @@ This site was deployed through GitHub Pages using the following steps:
 ### Code
 - Credit any sources of code used in the game.
 
-### Media
-- List any images or media used in the game and credit the sources.
 
 ### Acknowledgements
 - Acknowledge any assistance, resources, or inspirations used in the development of the game.
 
-Feel free to customize and expand this README.md to include more details about the game, its features, and the development process.
+
