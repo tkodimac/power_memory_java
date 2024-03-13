@@ -34,7 +34,7 @@
 The Memory Word Game is a fun and challenging game that tests your memory skills. It involves flipping cards to find matching pairs of words. The game presents a grid of cards, each containing a hidden word. Players flip the cards to reveal the words and try to find matching pairs by remembering the locations of the words. The game aims to improve memory and concentration while providing an entertaining experience for players of all ages. Enjoy the challenge and see how many pairs you can match! Color Scheme The Memory Word Game features a color scheme designed to provide a visually appealing and engaging experience for players.
 
 - **Blue (#61adec)**: The primary color used for the header and footer, creating a vibrant and inviting atmosphere for players.
-- **Grey (#c1b8b896)**: The background color complements the overall game layout, providing a neutral and calming mini backdrop.
+- **Blue (#1971b8f9)**: The background color complements the overall game layout, providing a neutral and calming mini backdrop.
 - **Black (#252323)**: Used for text and header elements, offering a clear and legible contrast against the background.
 - **White (#fff)**: Utilized for text in the header and footer, ensuring visibility and readability against the blue background.
 - **Chocolate (#d2691e)**: Utilized as a background color for the game, ensuring visibility and vividness against the game components.
