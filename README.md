@@ -37,7 +37,7 @@ The Memory Word Game is a fun and challenging game that tests your memory skills
 - **Grey (#c1b8b896)**: The background color complements the overall game layout, providing a neutral and calming mini backdrop.
 - **Black (#252323)**: Used for text and header elements, offering a clear and legible contrast against the background.
 - **White (#fff)**: Utilized for text in the header and footer, ensuring visibility and readability against the blue background.
-- **Chocolate (#d2691e)**: Utilized as a background color for the game, ensuring visibility and vivid against the game components.
+- **Chocolate (#d2691e)**: Utilized as a background color for the game, ensuring visibility and vividness against the game components.
 
 #### Typography
 The game utilizes a clear and easy-to-read font to ensure a comfortable reading experience for players.
@@ -47,10 +47,7 @@ The game utilizes a clear and easy-to-read font to ensure a comfortable reading 
 - Dynamic generation of cards with shuffled word pairs
 - Interactive card flipping
 - Restart button to start a new game
-### Future Features
-- Addition of an image style for cards to increase the visibility and feel.
-- Adding a function to stop timer once all the cards have been matched.
-- A game log chart for best time record of completion .
+
 ### Game Grid Layout
 
 The Memory Word Game features a grid layout that provides an intuitive and interactive interface for players. The grid comprises a series of cards, each displaying a hidden word. These cards are arranged in rows and columns, creating a visually organized game board.
@@ -64,6 +61,10 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 ### Future Features
 - Implement a timer to track the time taken to complete the game
 - Add different difficulty levels with varying grid sizes
+- Addition of an image style for cards to increase the visibility and feel.
+- Adding a function to stop timer once all the cards have been matched.
+- A game log chart for best time record of completion.
+- Add custom 404 page
 
 ## Technologies Used
 ### Languages Used
@@ -83,7 +84,7 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 
 ## Testing
 ### Validator Testing
-- HTML, CSS, and JavaScript code were validated using W3C Markup Validation Service and jshint.
+- HTML, CSS, and JavaScript code were validated using W3C Markup Validation Service and JShint.
 
 ### Lighthouse Testing
 - The game was tested using Lighthouse for performance, accessibility, best practices, and SEO.
@@ -95,6 +96,7 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 - Insertion of images on the cards as background was a challenge as the text where appearing on the image. This was fixed by disenabling the image from the card.
 - Cards revealed texts that were overlapping the card margin when the tab was minimized. It was resolved by changing the words with short words that could fit in the cards even when minimized. 
 - Faced a problem when creating the timer for the game so that the user would enjoy a time-based game. the specific problem was with the logic of the timer and how to link the function of the timer to the logic function. I finally managed to overcome it by watching YouTube videos and advice from my mentor.
+- header and footer not within the window bar view. tried to adjust the width and height of the Header, Main and Footer but still the page was showing incorrectly. I finally had to write a small code on the Java script which fixed the problem. 
 
 
 ## Deployment
@@ -118,10 +120,13 @@ This site was deployed through GitHub Pages using the following steps:
 
 ## Credits
 ### Code
-- Credit any sources of code used in the game.
-
+-Inspiration for most responsive functions for the game came from my mentor and slack group(https://app.slack.com)'.
+General inspiration came from [Code institute](https://codeinstitute.net).
 
 ### Acknowledgements
-- Acknowledge any assistance, resources, or inspirations used in the development of the game.
+
+-[Julia Konn](https://github.com/IuliiaKonovalova), my mentor and coding partner, assisted me greatly in project development ,selection control implementation and helped me withstand pressure.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+
 
 
