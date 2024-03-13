@@ -101,9 +101,9 @@ The grid layout enhances the gameplay experience, providing a structured and vis
 ### Lighthouse Testing
 - The game was tested using Lighthouse for performance, accessibility, best practices, and SEO.
 
-[Lighthouse test](assets/readme/Lighthouse_test2_Screenshot.png)
+![Lighthouse test](assets/readme/Lighthouse_test2_Screenshot.png)
 
-[WAVE accessibility](assets/readme/WAVE_test_Screenshot.png)
+![WAVE accessibility](assets/readme/WAVE_test_Screenshot.png)
 
 ### Responsiveness
 - The game was tested on various devices and screen sizes to ensure responsiveness.
